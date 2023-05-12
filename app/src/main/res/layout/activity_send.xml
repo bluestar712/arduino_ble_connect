@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCCCCC"
+    tools:context=".activitity.SendActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Settlement Time ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val1"
+                   android:inputType="numberDecimal"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Minutes"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Max Depletion Time ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val2"
+                   android:textColor="@color/black"
+                   android:inputType="numberDecimal"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Minutes"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Max Aeration Time ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val3"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:inputType="numberDecimal"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Minutes"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Spot Cleaning Time ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val4"
+                   android:layout_width="0dp"
+                   android:inputType="numberDecimal"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_weight="0.8"
+                   android:background="@drawable/edit_border"
+                   android:textColor="@color/black" />
+
+               <TextView
+                   android:text="Minutes"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="G.T Cleaning Time ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val5"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:inputType="numberDecimal"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Minutes"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_password"
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:text="Password"
+                       android:textColor="#0000FF"
+                       android:textStyle="bold"
+                       android:layout_width="0dp"
+                       android:layout_weight="2"
+                       android:layout_height="wrap_content"/>
+
+                   <EditText
+                       android:id="@+id/et_pass"
+                       android:textColor="@color/black"
+                       android:layout_marginLeft="20dp"
+                       android:layout_marginRight="20dp"
+                       android:background="@drawable/edit_border"
+                       android:layout_width="0dp"
+                       android:inputType="textPassword"
+                       android:layout_weight="3"
+                       android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+
+               <Button
+                   android:id="@+id/btn_check_password"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="50dp"
+                   android:layout_marginRight="50dp"
+                   android:text= "Login"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_val6"
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Min Depletion Value ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val6"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:inputType="numberDecimal"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="mg/L"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_val7"
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Max Aeration Level ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val7"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:inputType="numberDecimal"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="mg/L"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_val8"
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="DO Resolution Time ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val8"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:inputType="numberDecimal"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Seconds"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_val9"
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Max Motor Current ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val9"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:inputType="numberDecimal"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Ampers"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_val10"
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="F.S Min Value ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val10"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:inputType="numberDecimal"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text="Volts"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_val11"
+               android:layout_marginTop="30dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:text="Calibration Factor ="
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:id="@+id/et_val11"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/edit_border"
+                   android:layout_width="0dp"
+                   android:inputType="numberDecimal"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:text=""
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="20dp"
+                   android:textStyle="bold"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.8"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+
+           <Button
+               android:id="@+id/btn_send"
+               android:layout_marginTop="50dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:text= "@string/send_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+
+       </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

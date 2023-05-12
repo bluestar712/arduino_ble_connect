@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASPI</string>
+    <string name="plot_name">plot</string>
+    <string name="send_name">Send Inputs</string>
+    <string name="receive_name">OUTPUT</string>
+
+</resources>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCCCCC"
+    tools:context=".activitity.SendActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="MLSS ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val1"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.8"
+                    android:text="mg/L"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="SSL ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val2"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="mL/L"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="SVI ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val3"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="mL/g"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="S.N Turbidity ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val4"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="NTU"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="SS MLSS ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val5"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="mg/L"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Basin DO ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val6"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="mgDO/L"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="OUR ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val7"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="(mgDO/L)/min"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="SOUR ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val8"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="(mgDO/g)/hour"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Min. Req. DO ="
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_val9"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/edit_border"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:text="mgDO/L"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_receive"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:text="@string/receive_name"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
